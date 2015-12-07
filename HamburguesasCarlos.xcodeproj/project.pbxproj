@@ -12,6 +12,7 @@
 		F16991BB1C14E3E60022BC59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F16991B91C14E3E60022BC59 /* Main.storyboard */; };
 		F16991BD1C14E3E60022BC59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F16991BC1C14E3E60022BC59 /* Assets.xcassets */; };
 		F16991C01C14E3E60022BC59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F16991BE1C14E3E60022BC59 /* LaunchScreen.storyboard */; };
+		F16991C81C14E4080022BC59 /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16991C71C14E4080022BC59 /* Datos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		F16991BC1C14E3E60022BC59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F16991BF1C14E3E60022BC59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F16991C11C14E3E60022BC59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F16991C71C14E4080022BC59 /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
+		F16991C91C14F56E0022BC59 /* hamburguesas.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = hamburguesas.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +63,18 @@
 				F16991BC1C14E3E60022BC59 /* Assets.xcassets */,
 				F16991BE1C14E3E60022BC59 /* LaunchScreen.storyboard */,
 				F16991C11C14E3E60022BC59 /* Info.plist */,
+				F16991C71C14E4080022BC59 /* Datos.swift */,
+				F16991CA1C14F57A0022BC59 /* playground */,
 			);
 			path = HamburguesasCarlos;
+			sourceTree = "<group>";
+		};
+		F16991CA1C14F57A0022BC59 /* playground */ = {
+			isa = PBXGroup;
+			children = (
+				F16991C91C14F56E0022BC59 /* hamburguesas.playground */,
+			);
+			name = playground;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +150,7 @@
 			files = (
 				F16991B81C14E3E60022BC59 /* ViewController.swift in Sources */,
 				F16991B61C14E3E60022BC59 /* AppDelegate.swift in Sources */,
+				F16991C81C14E4080022BC59 /* Datos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
